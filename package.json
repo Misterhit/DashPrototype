@@ -4,8 +4,10 @@
     "description": "1. Crear página con vídeo solamente mediante DASH",
     "main": "index.js",
     "dependencies": {
+        "cli": "^1.0.1",
         "dashjs": "^3.0.2",
         "express": "^4.17.1",
+        "firebase": "^8.3.1",
         "highlighter": "^0.1.0"
     },
     "devDependencies": {
