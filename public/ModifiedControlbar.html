@@ -10,9 +10,8 @@
     <script src="controlbar/ControlBar.js"></script>
     <script>
         function startVideo() {
-            const url = 'multimedia/LoL/lolfaker.mpd';
+            const url = 'https://dashprototype-8db5a.appspot.com.storage.googleapis.com/League%20Of%20Legends/lolfaker.mpd';
             var video = document.querySelector(".videoContainer video");
-
             var player = dashjs.MediaPlayer().create();
             player.initialize(video, url, true);
             var controlbar = new ControlBar(player);
@@ -34,6 +33,12 @@
 </head>
 
 <body onload="startVideo()">
+
+    <div>
+        <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+
+    </div>
+
     <div class="dash-video-player ">
         <!-- HTML structure needed for the ControlBar -->
         <div class="videoContainer" id="videoContainer">
