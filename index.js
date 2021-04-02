@@ -16,9 +16,9 @@ firebase.initializeApp({
 
 //const storage = firebase.storage().bucket('gs://dashprototype-8db5a.appspot.com').file('League Of Legends/lolfaker.mpd').makePublic().then((file) => { console.log(file) });
 //const storage = firebase.storage().bucket('gs://dashprototype-8db5a.appspot.com').file('League Of Legends/lolfaker.mpd').getMetadata().then((file) => { console.log(file[0].mediaLink) });
-firebase.storage().bucket('gs://dashprototype-8db5a.appspot.com').setCorsConfiguration([{ maxAgeSeconds: 3000, method: ["GET"], origin: ["*"], responseHeader: ["Content-Type"] }]).then(() => { console.log('Eliminado') })
-    //firebase.storage().bucket('gs://dashprototype-8db5a.appspot.com').getMetadata().then((file) => { console.log(file[0].cors) })
-    // Get a reference to the storage service, which is used to create references in your storage bucket
+//firebase.storage().bucket('gs://dashprototype-8db5a.appspot.com').setCorsConfiguration([{ maxAgeSeconds: 3000, method: ["GET"], origin: ["*"], responseHeader: ["Content-Type"] }]).then(() => { console.log('Eliminado') })
+//firebase.storage().bucket('gs://dashprototype-8db5a.appspot.com').getMetadata().then((file) => { console.log(file[0].cors) })
+// Get a reference to the storage service, which is used to create references in your storage bucket
 
 // Create a storage reference from our storage service
 
