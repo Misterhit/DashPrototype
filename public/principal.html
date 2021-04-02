@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
 
+    <script>
+        function changeLink(a) {
+            var iframe = document.getElementById("iframe");
+            iframe.src = a + ".html";
+            game.innerHTML = a;
+            return false;
+        }
+    </script>
 </head>
 
 <body class="text-center" id="page-top">
@@ -25,8 +33,8 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link active" href="league.html"><span class="text-center">League Of Legends</span></a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#"><span>Counter Strike</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" onclick="changeLink('League Of Legends'); return false;" href="#"><span>League Of Legends</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" onclick="changeLink('prueba'); return false;" href="#"><span>Counter Strike</span></a></li>
                     <li class="nav-item"><a class="nav-link active" href="#"><span>Street Fighter</span></a></li>
                     <li class="nav-item"><a class="nav-link active" href="#"><span>Dragon Ball Fighter Z</span></a></li>
                     <li class="nav-item"><a class="nav-link active" href="#"><span>Valorant</span></a></li>
@@ -70,10 +78,10 @@
                         </ul>
                     </div>
                 </nav>
-                <h1 class="display-4 text-capitalize text-center" style="margin: 0px;">League of Legends</h1>
+                <h1 id="game" class="display-4 text-capitalize text-center" style="margin: 0px;"> </h1>
                 <p></p>
                 <p></p>
-                <iframe src="ModifiedControlbar.html" frameborder="0" width="800px" height="800px"></iframe>
+                <iframe id="iframe" src="" frameborder="0" width="850px" height="850px"></iframe>
 
 
             </div>
