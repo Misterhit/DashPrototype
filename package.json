@@ -1,33 +1,33 @@
 {
-    "name": "dashprototype",
-    "version": "1.0.0",
-    "description": "1. Crear página con vídeo solamente mediante DASH",
-    "main": "index.js",
-    "dependencies": {
-        "cli": "^1.0.1",
-        "cors": "^2.8.5",
-        "dashjs": "^3.0.2",
-        "express": "^4.17.1",
-        "firebase": "^8.3.1",
-        "firebase-admin": "^9.6.0",
-        "highlighter": "^0.1.0",
-        "jquery": "^3.6.0"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.2"
-    },
-    "scripts": {
-        "start": "nodemon index.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Misterhit/DashPrototype.git"
-    },
-    "bugs": {
-        "url": "https://github.com/Misterhit/DashPrototype/issues"
-    },
-    "homepage": "https://github.com/Misterhit/DashPrototype#readme"
+  "name": "dashprototype",
+  "version": "1.0.0",
+  "description": "1. Crear página con vídeo solamente mediante DASH",
+  "main": "index.js",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "cors": "^2.8.5",
+    "dashjs": "^3.0.2",
+    "express": "^4.17.1",
+    "firebase": "^8.3.1",
+    "firebase-admin": "^9.6.0",
+    "highlighter": "^0.1.0",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Misterhit/DashPrototype.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Misterhit/DashPrototype/issues"
+  },
+  "homepage": "https://github.com/Misterhit/DashPrototype#readme"
 }
